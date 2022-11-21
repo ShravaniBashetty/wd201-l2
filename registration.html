@@ -1,0 +1,376 @@
+<!doctype html>
+<html>
+    <head>
+        <title>HOME</title>
+        
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <style>
+ /* nav a{
+    text-decoration:none;
+    color:white;
+    text-align: center;
+    padding:20px;
+    float:left;
+    transition: 2s;
+}
+nav{
+    background-color: black;
+    overflow:hidden;
+    margin-bottom:20px;
+    
+}
+nav a:hover{
+    color:darkgreen;
+} */
+            .bis{
+                display:flex;
+                list-style:none;
+                background-color:black;
+                border:2 px solid black;
+                border-radius:4px;
+                margin:3px;
+                height:40px;
+                padding:5px;
+                color:gray;
+                border-radius:4px;
+                
+            }
+            .pass a{
+                text-decoration: none;
+                margin-right:25px;
+                color:gray;
+                font-size:20px;
+                font-family:Arial;
+                transition: 2s;
+            }
+         .pass a:hover{
+              text-decoration:underline;
+              color:white;
+              transition:2s;
+
+         }
+         .register{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+         }
+         .main{
+            border:2px solid black;
+            border-radius:8px;
+            height:450px;
+            width:450px;
+            padding:8px;
+            margin-top:25px;
+            margin-left:550px;
+            color:black;
+            box-shadow: 10px 10px 10px gray;
+     
+         }
+         footer div{
+              font-family:Arial;
+         }
+         #label{
+            font-family: bold;
+            margin-bottom: 10px;
+         }
+         label{
+            margin-bottom: 6px;
+         }
+         input:hover{
+                    box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.536);
+         }
+         #box1{
+            margin-top:6px;
+         }
+         #fact{
+            background-color: orange;
+            color: white;
+            margin-left:6px;
+         }
+         #btn{
+            background-color: greenyellow;
+            color:white;
+            margin-left:10px;
+         }
+         #make{
+            display:flex;
+        }
+        .key{
+            margin-top:70px;
+            margin-left:150px;
+        }
+        footer{
+            padding-top: 50px;
+        }
+        .box{
+    border:2px solid darkgreen;
+    padding:5px;
+    width:100%;
+    background-color: darkolivegreen;
+}
+.gh1{
+   padding-top: 10px;
+    padding-bottom:10px;
+}
+.gh{
+   padding-top: 5px;
+    padding-bottom:5px;
+}
+.dd{
+    padding:20px;
+}
+.kb1{
+    display:grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 300px;
+    background-color: rgba(85, 107, 47, 0.201); 
+    color:darkgreen;
+   
+
+}
+.kk1{
+        margin-bottom:20px;
+    }
+    
+       
+        </style>
+    </head>
+    <body class="container-fluid">
+        <a href="./project">Project page</a>
+        <!-- <header>
+            <h2 align="center"><span><img src="logo.jpg" width="50px" height="80px"></span>Presidency High School</h2>
+            <ul class="bis">
+                <li class="pass"><span class="bi bi-house-door-fill"></span><a href="home.html">HOME</a></li>
+                <li class="pass"><span class="bi bi-question-circle-fill"></span><a href="about.html">ABOUT</a></li>
+                <li class="pass"><span class="bi bi-question-circle-fill"></span><a href="services.html">SERVICES</a></li>
+                <li class="pass"><span class="bi bi-music-player"></span><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </header> -->
+        <section>
+           <div id="make">
+            <div class="register">
+                <div class="main">
+                    <form id="user-form">
+                        <h2><center>Register Form</center></h2>
+    
+                        <div id="label">
+                            <label for="name">User Name:</label>
+                        <div id="box"> 
+                            <input type="text" name="name" placeholder="Enter name" id="name" required autofocus>
+                        </div>
+                        </div>
+        
+                        <div id="label">
+                            <label for="email">Email id:</label>
+                        <div id="box"> 
+                            <input type="email" name="email" id="email" placeholder="Enter email" required autofocus>
+                        </div>
+                        </div>
+        
+                        <!-- <div id="label">
+                            <label>Mobile:</label>
+                        <div id="box"> 
+                            <input type="text" name="phone number" id="phonenumber" placeholder="Contact Number" pattern="\+91\d{10}" required autofocus>
+                        </div>
+                        </div> -->
+                        <div id="label">
+                            <label for="password">Password:</label>
+                        <div id="box"> 
+                            <input type="password" name="password" id="password" placeholder="Password"  required autofocus>
+                        </div>
+                        </div>
+                        <div id="label">
+                            <label for="dob">Date</label>
+                        <div id="box"> 
+                            <input type="date" name="dob" id="dob" placeholder="Date"  required autofocus value= Date()>
+                        </div>
+                        </div>
+        
+                        <!-- <div id="label">
+                            <label>Image:</label>
+                        <div id="box"> 
+                            <input type="file" name="filename" id="filename" multiple>
+                        </div>
+                        </div> -->
+        
+                        
+        
+        
+                        <!-- <div id="label">
+                            <label>Confirm Password:</label>
+                        <div id="box"> 
+                            <input type="password" name="conformpassword" id="conformpassword" placeholder=" Confirm Password"  required autofocus>
+                        </div>
+                        </div>
+    
+                        <div id="box">
+                            <span>Gender:</span>
+                            <input type="radio" name="gender"   value="Male">Male
+                             <input type="radio" name="gender" value="Female">Female
+                        </div>
+     -->
+                        <div id="box">
+                            <input type="checkbox" name="acceptTerms" id="acceptTerms" >
+                            <label class="form-check-label" for="acceptTerms">Accept Terms & Conditions</label>
+                        </div>
+    
+                       <div id="box1">
+                        <!-- <button id="fact">Aleardy you have an account</button> -->
+                        <button id="btn" type="submit">Submit</button>
+                       </div>
+        
+                 </form>
+            </div>
+        </div>
+        <!-- <div class="key">
+            <img src="../public/images/user.png" width="250px">
+        </div> -->
+           </div>
+
+    </section>
+    <!-- <footer>
+        <div class="footer">
+            <div class="kb1">
+                <div>
+                    <h4 class="kk1"><center>Connect with us</center></h4>
+                    <div class="gh">
+                        <a href="#"><center>gmail</center></a>
+    
+                    </div>
+                    <div class="gh">
+                        <a href="#"><center>linkedin</center></a>
+                    </div>
+                    <div class="gh">
+                        <a href="#"><center>facebook</center></a>
+                    </div>
+                    <div class="gh">
+                        <a href="#"><center>Instagram</center></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="kk1"><center>Address</center></h4>
+                    <div class="gh1">
+                        <center>#1-124/30,</center> 
+    
+                    </div>
+                    <div class="gh1">
+                        <center>Sy.Nos. 355/P2 & 355/P3,</center>
+                    </div>
+                    <div class="gh1">
+                        <center>Mugpal</center>
+                        
+                    </div>
+                    <div class="gh1">
+                        <center>Nizamabad, Telangana, India-503230</center>
+                    </div>
+                </div>
+                <div class="dd">
+                    <b><center>Connect with us</center></b>
+                    <div class="gh">
+                        <center>xx</center>
+    
+                    </div>
+                    <div class="gh">
+                       <center>xx</center> 
+                    </div>
+                    <div class="gh">
+                        <center>xx</center>
+                    </div>
+                    <div class="gh">
+                        <center>xx</center>
+                    </div>
+                </div>
+                <center>xx</center>
+                </div>
+                 
+                
+            </div>
+        </div>
+         </div>
+         <div class="box"><center>&copy;Presidency high school,Nizamabad,India|
+            All Rights Reserved</center></div>
+       </footer> -->
+       <div class="relative bg-white px-6 mt-5 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-10">
+        <div class="mx-auto">
+           <h2 class="text-3xl text-center font-bold leading-tight">Entries</h2>
+           <div class="divide-y divide-gray-300/50 " id="user-entries"></div>
+         </div>
+   </div>
+   <script >
+    let userForm=document.getElementById("user-form");
+const retrieveEntries=()=>{
+    let entries=localStorage.getItem("user-entries");
+    if(entries){entries=JSON.parse(entries);}
+    else{entries=[];}
+    return entries;
+}
+
+window.onload = function() {
+    var date = new Date();
+    var dd = date.getDate();
+    var mm = date.getMonth() + 1;
+    var yyyy = date.getFullYear();
+    if (dd < 10) {
+      dd = "0" + dd;
+    }
+    if (mm < 10) {
+      mm = "0" + mm;
+    }
+    minYear = yyyy - 55; 
+    maxYear = yyyy - 18; 
+
+    var min = minYear + "-" + mm + "-" + dd;
+    var max = maxYear + "-" + mm + "-" + dd;
+
+    document.getElementById("dob").setAttribute("min", min);
+    document.getElementById("dob").setAttribute("max", max);
+  };
+
+
+let userEntries=retrieveEntries();
+const displayEntries=()=>{
+    const entries=retrieveEntries();
+    const tableEntries=entries.map((entry)=>{
+        const nameCell=`<td class='border px-4 py-2'>${entry.name}</td>`;
+        const emailCell=`<td class='border px-4 py-2'>${entry.email}</td>`;
+        const passwordCell=`<td class='border px-4 py-2'>${entry.password}</td>`;
+        const dobCell=`<td class='border px-4 py-2'>${entry.dob}</td>`;
+        const acceptTermsCell=`<td class='border px-4 py-2'>${entry.acceptTermsandconditions}</td>`;
+        const row=`<tr>${nameCell} ${emailCell} ${passwordCell} ${dobCell} ${acceptTermsCell}</tr>`;
+        return row;
+    }).join("\n");
+    const table=`<table class="table-responsive w-full d-flex  justify-content-center align-item-center "><tr>
+    <th class="px-4 py-2 text-center ">Name</th>
+    <th class="px-4 py-2 text-center ">Email</th>
+    <th class="px-4 py-2 text-center ">Password</th>
+    <th class="px-4 py-2 text-center">dob</th>
+    <th class="px-4 py-2 text-center">accepted terms?</th>
+    </tr>${tableEntries}</table>`;
+    let details=document.getElementById("user-entries");
+    details.innerHTML=table;
+}
+const saveUserForm=(event)=>{
+event.preventDefault();
+const name=document.getElementById("name").value;
+const email=document.getElementById("email").value;
+  const password=document.getElementById("password").value;
+  const dob=document.getElementById("dob").value;
+  const acceptTermsandconditions=document.getElementById("acceptTerms").checked;
+
+const entry={
+name,
+  email,
+  password,
+  dob,
+  acceptTermsandconditions
+};
+userEntries.push(entry);
+  localStorage.setItem("user-entries",JSON.stringify(userEntries));
+  displayEntries();
+}
+userForm.addEventListener("submit",saveUserForm);
+displayEntries();
+   </script>
+       
+    </body>
+    </html>
